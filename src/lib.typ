@@ -51,9 +51,11 @@
     (stroke: style.stroke,)
   }
 
+  // Use proper anchor points for better connection placement
+  // Connect from bottom of source node to top of target node
   draw.line(
-    (name: from-id),
-    (name: to-id),
+    (name: from-id, anchor: "south"),
+    (name: to-id, anchor: "north"),
     mark: style.at("mark", default: none),
     ..stroke-args
   )
