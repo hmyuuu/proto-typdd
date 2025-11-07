@@ -1,0 +1,30 @@
+# Typst build outputs
+*.pdf
+*.png
+*.svg
+/target/
+
+# OS files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# Editor files
+.vscode/
+.idea/
+*.swp
+*.swo<D-s>
+*~
+.cursor/
+.claude/
+
+# Dependencies and cache
+.typst/
+node_modules/
+
+# Logs
+*.log

@@ -1,0 +1,12 @@
+[package]
+name = "typdd"
+version = "0.1.0"
+entrypoint = "lib.typ"
+authors = ["hmyuuu"]
+license = "MIT"
+description = "A Typst package for drawing Binary Decision Diagrams (BDDs) and Algebraic Decision Diagrams (ADDs) using CeTZ"
+homepage = "https://github.com/hmyuuu/typdd"
+repository = "https://github.com/hmyuuu/typdd"
+keywords = ["diagram", "graph", "bdd", "add", "decision-diagram"]
+categories = ["visualization"]
+compiler = "0.12.0"
