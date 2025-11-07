@@ -27,12 +27,10 @@
   ),
   edge: (
     low: (
-      stroke: black + 1pt,
       dash: "dotted",
       mark: none,
     ),
     high: (
-      stroke: black + 1pt,
       dash: none,
       mark: (end: "stealth"),
     ),
@@ -74,12 +72,10 @@
   ),
   edge: (
     low: (
-      stroke: rgb("#F44336") + 1.5pt,
       dash: "dotted",
       mark: none,
     ),
     high: (
-      stroke: rgb("#2196F3") + 1.5pt,
       dash: none,
       mark: (end: "stealth"),
     ),
@@ -121,12 +117,10 @@
   ),
   edge: (
     low: (
-      stroke: rgb("#9E9E9E") + 0.8pt,
       dash: "dotted",
       mark: none,
     ),
     high: (
-      stroke: rgb("#616161") + 0.8pt,
       dash: none,
       mark: (end: "stealth"),
     ),
